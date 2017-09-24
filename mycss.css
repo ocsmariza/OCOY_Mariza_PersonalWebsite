@@ -27,12 +27,12 @@ display:block;
 	float:left;
 	margin: 0px;
 	text-align:center;
-	line-height:30px;
+	line-height:40px;
 	color:#FFFFFF;
 	font-size:16px;
 	font-weight:bold;
 	text-decoration:absolute;
-	padding-left:0px;
+	padding-left:10px;
 	padding-right:10px;
 }
 
