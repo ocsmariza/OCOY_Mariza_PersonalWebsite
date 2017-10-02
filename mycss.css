@@ -22,20 +22,13 @@ background-repeat:no-repeat;
 	color:#FFFFFF;
 	font-size:16px;
 	font-weight:bold;
-	text-decoration:absolute;
-}
-
-#header h1
-{
-display:block;
-float:right;
-margin-left:0px;
-color:#FFFFFF;
-text-align:left;
-font-size:28px;
-font-weight:bold;
-font-family:Arial, Helvetica, sans-serif;
-padding-right:150px;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    display: inline-block;
+	}
+#header:hover, #header:active {
+    background-color: red;
 }
 #page
 {
