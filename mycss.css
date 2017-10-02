@@ -1,52 +1,140 @@
 
-
-.background{
+body {
 	
-	background-image: url(images/abst.jpg);
-	width: 1400px;
-	height: 900px;
+	background-image:url(images/abst.jpg);
+	color:white;
+	width:1369px;
+	height:160px;
+
 }
-#header ul li , #header ul li a{
+#header
+{
+background-repeat:no-repeat;
+}
+#header ul {
+	list-style-type: none;
 	float:left;
-	margin: 30px;
-	text-align:center;
-	font-weight:bold;
-	color:#FFFFFF;
-	font-size:18px;
 }
+#header ul li , #header ul li visited
+	float:left;
+	text-align:left;
+	line-height:10;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:absolute;
+}
+
 #header h1
 {
 display:block;
 float:right;
+margin-left:0px;
 color:#FFFFFF;
-text-align:center;
-font-size:26px;
+text-align:left;
+font-size:28px;
 font-weight:bold;
 font-family:Arial, Helvetica, sans-serif;
+padding-right:150px;
 }
 #page
 {
   margin: 0 auto 0 auto; 
+  margin-top:35px;
   display: block; 
+  height:auto;
   position: relative;  
+  width: 800px;
 }
 #copyright {
 display:block;
+width: 900px;
 text-align:center;
-font-size:20px;
+font-size:16px;
 line-height:25px;
-color:white;
 }
 #index .photo
 {
-margin-left;
+align:right;
+padding-top:20px;
 }
 #index .indexp
 {
-	color: white;
-	padding-left:150px;
+	padding-top:10px;
 }
-#index .index1
+
+
+body {
+	
+	background-image:url(images/abst.jpg);
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 13px;
+	color: #F1F5F8;
+
+}
+
+
+#header
 {
-	padding-left:500px;
+background-repeat:no-repeat;
+width:921px;
+}
+#header ul {
+display:block;
+	padding: 0px;
+	list-style-type: none;
+	overflow:hidden;
+	width:700px;
+	float:left;
+}
+#header ul li , #header ul li a{
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:40px;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:absolute;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#header h1
+{
+display:block;
+float:right;
+margin-left:0px;
+color:#FFFFFF;
+text-align:left;
+font-size:28px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+padding-right:150px;
+}
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:35px;
+  display: block; 
+  height:auto;
+  position: relative;  
+  width: 800px;
+}
+#copyright {
+display:block;
+width: 900px;
+text-align:center;
+font-size:16px;
+line-height:25px;
+}
+#index .photo
+{
+align:right;
+padding-top:20px;
+}
+#index .indexp
+{
+	padding-top:10px;
+}
 
