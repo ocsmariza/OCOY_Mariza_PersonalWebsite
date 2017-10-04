@@ -1,133 +1,69 @@
 
 body {
 	
-	background-image:url(images/abst.jpg);
-	color:white;
-	width:1369px;
-	height:160px;
-
-}
-#header
-{
-background-repeat:no-repeat;
-}
-#header ul {
-	list-style-type: none;
-	float:left;
-}
-#header ul li , #header ul li visited
-	float:left;
-	text-align:left;
-	line-height:10;
-	color:#FFFFFF;
-	font-size:16px;
-	font-weight:bold;
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    display: inline-block;
-	}
-#header:hover, #header:active {
-    background-color: red;
-}
-#page
-{
-  margin: 0 auto 0 auto; 
-  margin-top:35px;
-  display: block; 
-  height:auto;
-  position: relative;  
-  width: 800px;
-}
-#copyright {
-display:block;
-width: 900px;
-text-align:center;
-font-size:16px;
-line-height:25px;
-}
-#index .photo
-{
-align:right;
-padding-top:20px;
-}
-#index .indexp
-{
-	padding-top:10px;
-}
-
-
-body {
-	
-	background-image:url(images/abst.jpg);
+	background-color:black;
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 13px;
-	color: #F1F5F8;
-
+	color: white;	
+	border: 20px solid transparent;
+    padding: 15px;
+    border-color:violet;
 }
-
-
-#header
-{
-background-repeat:no-repeat;
-width:921px;
+#list {
+	float:right;	
+	padding-top:100px;
+	padding-right:50px;
 }
-#header ul {
-display:block;
-	padding: 0px;
-	list-style-type: none;
-	overflow:hidden;
-	width:700px;
-	float:left;
-}
-#header ul li , #header ul li a{
-	float:left;
-	margin: 0px;
-	text-align:center;
-	line-height:40px;
-	color:#FFFFFF;
-	font-size:16px;
-	font-weight:bold;
-	text-decoration:absolute;
-	padding-left:10px;
-	padding-right:10px;
-}
-
-#header h1
-{
-display:block;
-float:right;
-margin-left:0px;
-color:#FFFFFF;
-text-align:left;
-font-size:28px;
-font-weight:bold;
-font-family:Arial, Helvetica, sans-serif;
-padding-right:150px;
-}
-#page
-{
-  margin: 0 auto 0 auto; 
-  margin-top:35px;
-  display: block; 
-  height:auto;
-  position: relative;  
-  width: 800px;
+#list a{
+	margin-left:10px;
+	font-size:30px;
+	background-color:black;
+	padding:3px;
+	text-decoration:none;
+	color:red;
+	
 }
 #copyright {
 display:block;
-width: 900px;
+width: 1300x;
 text-align:center;
 font-size:16px;
 line-height:25px;
 }
-#index .photo
+div.index1
 {
-align:right;
-padding-top:20px;
+	text-align:center;
 }
-#index .indexp
+div.indexp
 {
-	padding-top:10px;
+	margin-left:350px;
+}
+div.indexphoto
+{
+	margin-left:300px;
 }
 
+div.indexcontact
+{
+	text-align:center;
+}
+div.mypics
+{
+	background-image:url(images/abstr.jpg);
+}
+div.pphoto
+{
+	margin-left:300px;
+}
+div.indexpersonal
+{
+	margin-left:300px;
+}
+div.indexwork
+{
+	margin-left:400px;
+}
+div.photos
+{
+	margin-left:30px;
+}
