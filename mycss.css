@@ -1,6 +1,5 @@
 
 body {
-	
 	background-color:black;
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 13px;
@@ -50,6 +49,7 @@ div.indexcontact
 div.mypics
 {
 	background-image:url(images/abstr.jpg);
+	background-repeat:no-repeat;
 }
 div.pphoto
 {
